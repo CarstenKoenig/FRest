@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FRest.Contracts", "FRest.Contracts\FRest.Contracts.fsproj", "{D65EEBC9-D6D9-47F1-AA46-D2EE7DC741EA}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FRest.Tests", "FRest.Tests\FRest.Tests.fsproj", "{B1751240-C442-4F1B-B57E-2988FD7C88AE}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FRest.Server", "FRest.Server\FRest.Server.fsproj", "{3F34C1C0-44BD-481F-8186-834EB9E6D093}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FRest.Client", "FRest.Client\FRest.Client.fsproj", "{E05917AF-3569-4179-BC49-CF3B19EC6335}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D65EEBC9-D6D9-47F1-AA46-D2EE7DC741EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D65EEBC9-D6D9-47F1-AA46-D2EE7DC741EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D65EEBC9-D6D9-47F1-AA46-D2EE7DC741EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D65EEBC9-D6D9-47F1-AA46-D2EE7DC741EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1751240-C442-4F1B-B57E-2988FD7C88AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1751240-C442-4F1B-B57E-2988FD7C88AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1751240-C442-4F1B-B57E-2988FD7C88AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1751240-C442-4F1B-B57E-2988FD7C88AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F34C1C0-44BD-481F-8186-834EB9E6D093}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F34C1C0-44BD-481F-8186-834EB9E6D093}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F34C1C0-44BD-481F-8186-834EB9E6D093}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F34C1C0-44BD-481F-8186-834EB9E6D093}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E05917AF-3569-4179-BC49-CF3B19EC6335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E05917AF-3569-4179-BC49-CF3B19EC6335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E05917AF-3569-4179-BC49-CF3B19EC6335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E05917AF-3569-4179-BC49-CF3B19EC6335}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
