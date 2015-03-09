@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ErrorOrSuccess.fs" />
+    <Compile Include="ReaderM.fs" />
     <Compile Include="Messages.fs" />
     <Compile Include="Handler.fs" />
   </ItemGroup>
