@@ -43,16 +43,16 @@ module SelfHosting =
 
     let configureFormatters (config : #HttpConfiguration) =
         config.Formatters
-              .XmlFormatter
-              .UseXmlSerializer <- true
+                .XmlFormatter
+                .UseXmlSerializer <- true
         config.Formatters
-              .JsonFormatter
-              .SerializerSettings
-              .ContractResolver
-                   <- Newtonsoft
-                       .Json
-                       .Serialization
-                       .CamelCasePropertyNamesContractResolver()
+                .JsonFormatter
+                .SerializerSettings
+                .ContractResolver
+                    <- Newtonsoft
+                        .Json
+                        .Serialization
+                        .CamelCasePropertyNamesContractResolver()
         config
 
     let setupRoutes (config : #HttpConfiguration) =

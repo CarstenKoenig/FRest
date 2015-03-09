@@ -29,7 +29,7 @@ module ``Integrationstests using SelfHosting and Api`` =
 
     [<Fact>]
     let ``Echo returns the message``() =
-        use service = startService Handler.initialHandler
+        use service = startService Handler.initial
         let api = getApi ()
             
         let response = 

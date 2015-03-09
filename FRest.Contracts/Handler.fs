@@ -7,7 +7,7 @@ module Handler =
             OnEcho : string -> Async<string>
         }
 
-    let initialHandler : T =
+    let initial : T =
         { 
             OnEcho = fun s -> async { return s }
         }

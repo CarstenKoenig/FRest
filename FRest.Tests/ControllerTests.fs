@@ -37,7 +37,7 @@ module ``API Controller Tests`` =
 
             [<Fact>]
             let ``with msg="Hello" should reply with the same Echo``() = 
-                use controller = setupController Handler.initialHandler
+                use controller = setupController Handler.initial
 
                 let response : Messages.Echo = 
                     controller.Echo "Hello"
